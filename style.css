@@ -1,0 +1,40 @@
+
+/* style sitePOMME - nadia karouchi */
+body {
+    margin: 10px 0;
+    padding: 0;
+    background: #ccff99;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+main#container {
+    margin: 0 auto;
+    width: 770px;
+    background: #fff;
+    border: 2px solid #ab4;
+    text-align: left;
+}
+h1#header {
+    height: 250px;
+    margin: 0;
+    background: url(../cbs-sitePOMME/img/apple.jpg) no-repeat left top; 
+}
+/* la propriété display et la valeur block transforment le lien a inline en élément de type block on peut donc lui attribuer des propriétés de taille ; on positionne l'image de fond qui a les mêmes dimensions que le cadre ainsi créé */
+#header a{
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 300px;
+    width: 400px;
+    height: 70px;
+    
+    background: url(../cbs-sitePOMME/img/title.gif) no-repeat;
+    text-indent: -5000px;
+    /* le text-indent négatif est fait pour cacher le texte au visiteur (il est hors de la page) mais il est lu par les moteurs de recherche */
+
+
+}
+footer {
+    height: 60px;
+    line-height: 60px;
+}
